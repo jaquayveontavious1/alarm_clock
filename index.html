@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tiffany Kanyingi">
+    <meta name="description" content="Alarm Clock Project">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="schedule_FILL0_wght400_GRAD0_opsz24.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div id="current-time">
+            <h1>Current Time</h1>
+            <img src="schedule_FILL0_wght400_GRAD0_opsz24.svg" alt="Alarm Clock" width="103px" >
+            <h2>00:00:00 AM</h2>
+        
+        </div>
+     
+        <div class="alarm-body">
+            <div class="column">
+                <select>
+                    <option value="Hour" selected disabled hidden >Hour</option>
+                 </select>
+
+            </div>
+            <div class="column">
+                <select name="Minute" id="">
+                    <option value="Minute" selected disabled hidden>Minute</option>
+                </select>
+            </div>
+            <div class="column">
+                <select name="AM/PM" id="">
+                    <option value="Minute" selected disabled hidden>Minute</option>
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+
+        </div>
+    </div>
+    <button>Set Alarm</button>
+    
+    <script src="alarm.js"></script>
+
+</body>
+</html>
